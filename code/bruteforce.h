@@ -1,0 +1,1 @@
+void bruteforce(char* init_path);
