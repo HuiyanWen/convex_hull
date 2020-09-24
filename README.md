@@ -33,6 +33,7 @@
 <br>•	Preprocess:找到横坐标最大的点A和最小的点B，标记每个点是否访问，若全部访问则算法停止。(时间复杂度为O(n))；
 <br>•	Divide:作直线AB，把凸包分为SL和SU上下两个子集，对每个部分求得点Pmax,使得SABPmax最大。将三角形三个点和三角形内部的点标记为已访问，删去所有三角形内部及边上的点。(时间复杂度为O(n))；
 <br>•	Conquer: 进一步依据△ABPmax划分成左右两个部分，当作SL和SU，分治递归、不断重复。(时间复杂度为2T(n/2))。
+
 ![](https://github.com/HuiyanWen/convex_hull/blob/master/divide.png)
 
 ## 随机生成数据点并求解凸包
